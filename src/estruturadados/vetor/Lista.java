@@ -1,12 +1,13 @@
 package estruturadados.vetor;
 
-import java.lang.reflect.Array;
-
 public class Lista <T>{ //<T>ClassType
 
     private T[] elementos;
     private int tamanho;
 
+    /*Para poder instanciar vetores de forma genérica, criamos o vetor do tipo Object e fazemos o casting para o tipo que a gente precisa
+    (T[])         new Object[capacidade];
+    casting       tipo object*/
     public Lista(int capacidade) {
         this.elementos = (T[]) new Object[capacidade];
         this.tamanho = 0;
@@ -39,14 +40,14 @@ public class Lista <T>{ //<T>ClassType
     }
 
 
-    public T busca(int posicao) {
+    public Object busca(int posicao) {
         if (!(posicao >= 0 && posicao < tamanho)) {
             throw new IllegalArgumentException("Posição inválida");
         }
         return this.elementos[posicao];
     }
 
-    public int busca(Object elemento) {
+    public int busca(T elemento) {
         for (int i = 0; i < this.tamanho; i++) {
             if (this.elementos[i].equals(elemento)) {
                 return i;
@@ -71,7 +72,7 @@ public class Lista <T>{ //<T>ClassType
 
     private void aumentaCapacidade() {
         if (this.tamanho == this.elementos.length) {
-            T[] elementosNovos = new T[this.elementos.length * 2];
+            T[] elementosNovos = (T[]) new Object[this.elementos.length * 2]; //fazer o casting igual o construtor - continua fazendo um veotr de objeto porém faz o casting pra classe
             for (int i = 0; i < this.elementos.length; i++) {
                 elementosNovos[i] = this.elementos[i];
             }
