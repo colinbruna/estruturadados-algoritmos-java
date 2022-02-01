@@ -38,7 +38,7 @@ public class Vetor {
         }
         return false;
     }
-    //remover um elemento do vetor
+    //remover um elemento do vetor dando a posição
     public void remove(int posicao){
         if (!(posicao >=0 && posicao < tamanho)){
             throw new IllegalArgumentException("Posição inválida");

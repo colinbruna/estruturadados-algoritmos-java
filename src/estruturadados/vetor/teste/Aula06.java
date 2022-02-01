@@ -2,7 +2,7 @@ package estruturadados.vetor.teste;
 
 import estruturadados.vetor.Vetor;
 
-public class aula05 {
+public class Aula06 {
 
     public static void main(String[] args) {
 
@@ -12,9 +12,7 @@ public class aula05 {
         vetor.adiciona("elemento 2");
         vetor.adiciona("elemento 3");
 
-        System.out.println(vetor.busca(2));
-        System.out.println(vetor.busca(3));
-        System.out.println(vetor.busca(15));
-
+        System.out.println(vetor.busca("elemento 1"));
+        System.out.println(vetor.busca("elemento 4"));
     }
 }

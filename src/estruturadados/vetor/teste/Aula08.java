@@ -2,7 +2,7 @@ package estruturadados.vetor.teste;
 
 import estruturadados.vetor.Vetor;
 
-public class aula08 {
+public class Aula08 {
 
     public static void main(String[] args) {
 
