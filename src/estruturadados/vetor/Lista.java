@@ -19,16 +19,6 @@ public class Lista<T> { //<T>ClassType
         this.tamanho = 0;
     }*/
 
-    public boolean adiciona(T elemento) {
-        this.aumentaCapacidade();
-        if (this.tamanho < this.elementos.length) {
-            this.elementos[this.tamanho] = elemento;
-            this.tamanho++;
-            return true;
-        }
-        return false;
-    }
-
     public void remove(int posicao) {
         if (!(posicao >= 0 && posicao < tamanho)) {
             throw new IllegalArgumentException("Posição inválida");
@@ -46,7 +36,11 @@ public class Lista<T> { //<T>ClassType
         }
     }
 
-    public Object busca(int posicao) {
+    public T obtem(int posicao) {
+        return this.busca(posicao);
+    }
+
+    public T busca(int posicao) {
         if (!(posicao >= 0 && posicao < tamanho)) {
             throw new IllegalArgumentException("Posição inválida");
         }
@@ -88,6 +82,16 @@ public class Lista<T> { //<T>ClassType
         this.tamanho++;
 
         return true;
+    }
+
+    public boolean adiciona(T elemento) {
+        this.aumentaCapacidade();
+        if (this.tamanho < this.elementos.length) {
+            this.elementos[this.tamanho] = elemento;
+            this.tamanho++;
+            return true;
+        }
+        return false;
     }
 
     private void aumentaCapacidade() {

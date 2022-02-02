@@ -37,7 +37,7 @@ Exercício 2 - Melhorar a classe Lista e implementar o método ultimoIndice, sem
 
 Exercício 3 - Melhorar a classe Lista e implementar o método remove(T elemento), onde será possível remover um elemento da lista passando o mesmo como parâmetro.
 
-Exercício 4 -
+Exercício 4 - Melhorar a classe Lista e implementar o método obtem(int posicao), onde será possível obter o elemento dada uma posição do vetor. Esse método é semelhante ao método get(int posicao) da classe ArrayList.
 
 Exercício 5 -
 
