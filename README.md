@@ -43,7 +43,7 @@ Exercício 5 - Melhorar a classe Lista e implementar o método limpar, onde todo
 
 Exercício 6 - Utilize a classe Lista ou Vetor e a classe Contato (criada durante as aulas) e desenvolva os seguintes itens: 1. Crie um vetor com capaciadade para 20 contatos; 2. Insira 30 contatos no vetor (isso é possível ser feito através de um loop); 3. Crie um exemplo para utilizar cada método da classe Lista.
 
-Exercício 7 - 
+Exercício 7 - Utilize a classe ArrayList e desenvolva os seguintes itens: 1. Crie uma lista utilizando a classe ArrayList da API do Java; 2. Passe todos os contatos do vetor para o ArrayList; 3. Crie um exemplo para utilizar cada método da classe ArrayList (somente métodos que implementamos de forma similar na classe Lista).
 
 ### Pilhas
 Aula 13 - 
