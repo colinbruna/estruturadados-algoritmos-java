@@ -41,7 +41,7 @@ Exercício 4 - Melhorar a classe Lista e implementar o método obtem(int posicao
 
 Exercício 5 - Melhorar a classe Lista e implementar o método limpar, onde todos os elementos da lista são removidos. Esse método é semelhante ao método clear da classe ArrayList.
 
-Exercício 6 -
+Exercício 6 - Utilize a classe Lista ou Vetor e a classe Contato (criada durante as aulas) e desenvolva os seguintes itens: 1. Crie um vetor com capaciadade para 20 contatos; 2. Insira 30 contatos no vetor (isso é possível ser feito através de um loop); 3. Crie um exemplo para utilizar cada método da classe Lista.
 
 Exercício 7 - 
 
