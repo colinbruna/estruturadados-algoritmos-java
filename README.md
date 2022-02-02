@@ -39,7 +39,7 @@ Exercício 3 - Melhorar a classe Lista e implementar o método remove(T elemento
 
 Exercício 4 - Melhorar a classe Lista e implementar o método obtem(int posicao), onde será possível obter o elemento dada uma posição do vetor. Esse método é semelhante ao método get(int posicao) da classe ArrayList.
 
-Exercício 5 -
+Exercício 5 - Melhorar a classe Lista e implementar o método limpar, onde todos os elementos da lista são removidos. Esse método é semelhante ao método clear da classe ArrayList.
 
 Exercício 6 -
 
