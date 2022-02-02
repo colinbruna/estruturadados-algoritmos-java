@@ -56,6 +56,16 @@ public class Lista<T> { //<T>ClassType
         return -1;
     }
 
+    public int ultimoIndice(T elemento) {
+        int ultimaPosicao = -1;
+        for (int i=this.tamanho-1; i>=0; i--) {
+            if (this.elementos[i].equals(elemento)) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
     public boolean contem(T elemento) {
         return busca(elemento) > -1;
     }
