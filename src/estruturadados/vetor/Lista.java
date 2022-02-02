@@ -1,6 +1,6 @@
 package estruturadados.vetor;
 
-public class Lista <T>{ //<T>ClassType
+public class Lista<T> { //<T>ClassType
 
     private T[] elementos;
     private int tamanho;
@@ -54,6 +54,10 @@ public class Lista <T>{ //<T>ClassType
             }
         }
         return -1;
+    }
+
+    public boolean contem(T elemento) {
+        return busca(elemento) > -1;
     }
 
     public boolean adiciona(int posicao, T elemento) {
