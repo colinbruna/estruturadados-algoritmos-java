@@ -39,6 +39,12 @@ public class Lista<T> { //<T>ClassType
         this.tamanho--;
     }
 
+    public void remove(T elemento) {
+        int posicao = this.busca(elemento);
+        if (posicao > -1) {
+            this.remove(posicao);
+        }
+    }
 
     public Object busca(int posicao) {
         if (!(posicao >= 0 && posicao < tamanho)) {

@@ -31,7 +31,19 @@ Aula 11 - Generics
 Aula 12 - API Java ArrayList
 * A classe ArrayList é a classe nativa do Java que pertence ao pacote java.util, e essa classe é similar a estrutura de dados implementada em aula.
 
-Exercícios
+Exercício 1 - Melhorar a classe Lista e implementar o método contém, semelhante ao método contains da classe ArrayList.
+
+Exercício 2 - Melhorar a classe Lista e implementar o método ultimoIndice, semelhante ao método lastInfexOf da classe ArrayList.
+
+Exercício 3 - Melhorar a classe Lista e implementar o método remove(T elemento), onde será possível remover um elemento da lista passando o mesmo como parâmetro.
+
+Exercício 4 -
+
+Exercício 5 -
+
+Exercício 6 -
+
+Exercício 7 - 
 
 ### Pilhas
 Aula 13 - 
