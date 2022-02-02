@@ -3,3 +3,4 @@
 ## Código e meus comentários de aula
 
 - Definição de vetor(array) é a estrutura de dados mais simples que existe. Um vetor armazena uma sequência de valores onde todos são do mesmo tipo.
+- A classe ArrayList é a classe nativa do Java que pertence ao pacote java.util, e essa classe é similar a estrutura de dados implementada em aula.
