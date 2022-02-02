@@ -36,6 +36,13 @@ public class Lista<T> { //<T>ClassType
         }
     }
 
+    public void limpar() {
+        for (int i=0; i<this.tamanho; i++) {
+            this.elementos[i] = null;
+        }
+        this.tamanho = 0;
+    }
+
     public T obtem(int posicao) {
         return this.busca(posicao);
     }
