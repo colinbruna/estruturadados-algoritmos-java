@@ -46,7 +46,23 @@ Exercício 6 - Utilize a classe Lista ou Vetor e a classe Contato (criada durant
 Exercício 7 - Utilize a classe ArrayList e desenvolva os seguintes itens: 1. Crie uma lista utilizando a classe ArrayList da API do Java; 2. Passe todos os contatos do vetor para o ArrayList; 3. Crie um exemplo para utilizar cada método da classe ArrayList (somente métodos que implementamos de forma similar na classe Lista).
 
 ### Pilhas
-Aula 13 - 
+Aula 13 - Introdução
+
+LIFO - Last In First Out
+
+Aula 14 - Empilhar elementos - push
+
+Aula 15 - Verificar pilha vázia
+
+Aula 16 - Espiar/Verificar elemento do topo - peek
+
+Aula 17 - Desempilhar elemento - pop
+
+Aula 18 - API Java Stack
+
+Exercício 1 - 
+
+
 ### Filas
 
 
