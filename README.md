@@ -60,8 +60,11 @@ Aula 17 - Desempilhar elemento - pop
 
 Aula 18 - API Java Stack
 
-Exercício 1 - 
+Exercício 1 - Escreva um programa que leia 10 números. Para cada número lido, verifique e codifique de acordo com as regras a seguir: 1. Se o número for par, empilhe na pilha; 2. Se o número for ímpar, desempilhe um número da pilha, caso a pilha esteja vázia, mostre uma mensagem; 3. Se ao final do programa a pilha não estiver vázia, desempilhe todos os elementos e imprima-os na tela.
 
+Exercício 2 - Escreva um programa que leia 10 números. Para cada número lido, verifique e codifique de acordo com as regras a seguir: 1. Se o número for par, empilhe na pilha chamada par; 2. Se o número for ímpar, empilhe na pilha chamada ímpar; 3. Se o número for zero, desempilhe um elemento de cada pilha; 4. Caso alguma pilha esteja vázia, mostre uma mensagem de erro na tela; 5. Ao final do programa desempilhe todos os elementos das duas pilhas e imprima-os na tela.
+
+Exercício 3 -
 
 ### Filas
 
