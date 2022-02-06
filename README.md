@@ -64,10 +64,20 @@ Exercício 1 - Escreva um programa que leia 10 números. Para cada número lido,
 
 Exercício 2 - Escreva um programa que leia 10 números. Para cada número lido, verifique e codifique de acordo com as regras a seguir: 1. Se o número for par, empilhe na pilha chamada par; 2. Se o número for ímpar, empilhe na pilha chamada ímpar; 3. Se o número for zero, desempilhe um elemento de cada pilha; 4. Caso alguma pilha esteja vázia, mostre uma mensagem de erro na tela; 5. Ao final do programa desempilhe todos os elementos das duas pilhas e imprima-os na tela.
 
-Exercício 3 -
+Exercício 3 - Utilize a pilha (criada durante as aulas) e desenvolva os seguintes itens: 1. Crie uma pilha com capacidade para 20 livros; 2. Insira 6 livros na pilha, cada livro contém: nome, isbn, ano de lançamento e autor; 3. Crie um exemplo para utilizar cada método da classe pilha.
+
+Exercício 4 - Repita o mesmo processo do exercício anterior, porém usando a classe stack da API Java. 1. Crie uma pilha com capacidade para 20 livros; 2. Insira 6 livros na pilha, cada livro contém: nome, isbn, ano de lançamento e autor;   3. Crie um exemplo para usar cada método da classe stack 
+
+Exercício 5 - Escreva um programa que testa se uma sequencia de caracteres fornecida é um palíndromo, ou seja, é uma palavra cuja primeira metade é simétrica com a segunda metade. Ex.: 1. AABCCBAA SIM; 2. ADDFDDA SIM; 3. ABFFBB NÃO;
+
+Exercício 6 - Escreva um programa para verificar se uma expressão matemática tem os parenteses agrupados de forma correta, isto é: 1. Se o numero de parenteses a direita e a esquerda são iguais e; 2. se todo parentese aberto é seguido posteriormente por um fechamento de parentese.
+
+Exercício 7 - Usando a classe pilha ou stack, desenvolva um algoritmo que faça a conversão de números decimais para binário.
+
+Exercício 8 - Usando a classe pilha ou stack, desenvolva um algoritmo que resolva o quebra cabeça Torre de Hanoi.
 
 ### Filas
-
+Aula 19 - 
 
 
 
