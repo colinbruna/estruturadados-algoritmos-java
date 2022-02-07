@@ -48,7 +48,7 @@ Exercício 7 - Utilize a classe ArrayList e desenvolva os seguintes itens: 1. Cr
 ### Pilhas
 Aula 13 - Introdução
 
-LIFO - Last In First Out
+* LIFO - Last In First Out
 
 Aula 14 - Empilhar elementos - push
 
@@ -77,7 +77,20 @@ Exercício 7 - Usando a classe pilha ou stack, desenvolva um algoritmo que faça
 Exercício 8 - Usando a classe pilha ou stack, desenvolva um algoritmo que resolva o quebra cabeça Torre de Hanoi.
 
 ### Filas
-Aula 19 - 
+Aula 19 - Introdução
 
+* FIFO - First In First Out
 
+Aula 20 - Adicionando um novo elemento na fila - enqueue
 
+Aula 21 - Verificando o elemento que está no ínicio da fila - peek
+
+Aula 22 - Retirando um elemento da fila - dequeue
+
+Aula 23 - Classe fila da API Java Collections
+
+* Podemos instanciar qualquer classe que implemente uma interface, e oe métodos que estarão disponíveis para utilizar naquela classe, serão os métodos que foram declarados naquela interfce.
+
+Aula 24 - Filas com prioridade
+
+Aula 25 - API Java - Priority Queue
