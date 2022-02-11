@@ -4,49 +4,47 @@ import estruturadados.pilha.Pilha;
 
 public class Exercicio06 {
 
+    final static String ABRE = "([{";
+    final static String FECHA = ")]}";
+
     public static void main(String[] args) {
 
-        imprimeResultado("A + B");
-        imprimeResultado("A + B + (C - D)");
-        imprimeResultado("{[()]}[](){()}");
-        imprimeResultado("{[(]}[](){()}");
-        imprimeResultado("A + B + C - D)");
+        imprimeResultado("((A + B"); //false
+        imprimeResultado("A + B)"); //false
+        imprimeResultado("A + B"); //true
+        imprimeResultado("A + B + (C - D)"); //true
+        imprimeResultado("{[()]}[](){()}"); //true
+        imprimeResultado("{[(]}[](){()}"); //false
+        imprimeResultado("A + B + C - D)"); //false
     }
 
-    public static void imprimeResultado(String expressao){
+    public static void imprimeResultado(String expressao) {
         System.out.println(expressao + " está balanceado? " +
                 verificaSimbolosBalanceados(expressao));
     }
 
-    final static String ABRE = "([{";
-    final static String FECHA = ")]}";
+    public static boolean verificaSimbolosBalanceados(String expressao) {
 
-    public static boolean verificaSimbolosBalanceados(String expressao){
-
-        Pilha<Character> pilha = new Pilha<Character>();
-        int index = 0;
+        Pilha<Character> pilha = new Pilha<>();
         char simbolo, topo;
 
-        while (index < expressao.length()){
-            simbolo = expressao.charAt(index);
+        for (int i = 0; i < expressao.length(); i++) {
+            simbolo = expressao.charAt(i);
 
-            if (ABRE.indexOf(simbolo) > -1){
+            if (ABRE.indexOf(simbolo) > -1) {
                 pilha.empilha(simbolo);
-
-            } else if (FECHA.indexOf(simbolo) > -1){
-
-                if (pilha.estaVazia()){
+            } else if (FECHA.indexOf(simbolo) > -1) {
+                if (pilha.estaVazia()) {
                     return false;
                 } else {
                     topo = pilha.desempilha();
-
-                    if (ABRE.indexOf(topo) != FECHA.indexOf(simbolo)){
+                    if (ABRE.indexOf(topo) != FECHA.indexOf(simbolo)) {
                         return false;
                     }
                 }
             }
-            index++;
+
         }
-        return true;
+        return pilha.estaVazia();
     }
 }
