@@ -1,6 +1,6 @@
 # Material do curso estrutura de dados com Java - loiane.training
 
-## Código e meus comentários de aula
+## Código, exercícios e meus comentários de aula
 
 ### Vetores, Arrays e Listas
 
